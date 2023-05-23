@@ -1,0 +1,9 @@
+.headerCustomClass {
+    font-weight: 'bold';
+    color: '#FFFFFF';
+    position: 'relative';
+    top: '0px';
+    left: '45%';
+    height: '100%';
+    width: '100%';
+}

@@ -1,0 +1,137 @@
+.customBackground {
+  background-color: #BC4C4D;
+  padding: 25px;
+  border-radius: 12px;
+  margin: 6px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.box-border-main {
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.15);
+  padding: 25px;
+  border-radius: 12px;
+  margin: 9px;
+}
+
+.box-2 {
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.15) !important;
+}
+
+.steper-main {
+  margin-top: 25px;
+  border-bottom: #ccc solid 1px;
+  padding-bottom: 20px;
+}
+
+.info-box {
+  padding: 10px 0px 10px 0px !important;
+}
+
+.mt-5 {
+  margin-top: 15px;
+}
+
+.attend {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+
+}
+
+.userleft {
+  width: 50%;
+  float: left;
+  color: #fff;
+  text-align: left;
+
+  font-size: 15px;
+}
+
+.userright {
+  width: 50%;
+  float: right;
+  color: #fff;
+  text-align: right;
+  font-size: 16px;
+  font-weight: 600 !important;
+}
+
+.userright span {
+  padding-left: 2%;
+}
+
+span.setpass {
+  padding-right: 6%;
+}
+
+.setting {
+  vertical-align: middle;
+}
+
+h1 {
+  padding-bottom: 5px;
+}
+
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-completed {
+  color: #931E17 !important;
+}
+
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-active {
+  color: #DA3832 !important;
+}
+
+@media screen and (max-width:766px) {
+
+  .userleft {
+    width: 100%;
+    float: left;
+    text-align: left;
+  }
+
+  .userright {
+    width: 100%;
+    float: left;
+    text-align: right;
+
+  }
+
+  .head-section {
+    display: inline-block !important;
+  }
+
+}
+
+@media screen and (max-width:375px) {
+
+  .userright {
+    font-size: 15px;
+  }
+
+  .attend {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width:364px) {
+
+  .userright {
+    font-size: 14px;
+  }
+
+  .attend {
+    font-size: 15px;
+  }
+}
