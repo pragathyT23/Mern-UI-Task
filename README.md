@@ -1,6 +1,6 @@
 # Mern-UI-Task
-MERN-UI Task
+React 18 is used.
 
 # Steps to run
-npm install
-npm start
+npm install <br/>
+npm start <br/>
